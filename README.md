@@ -1,0 +1,5 @@
+Project Steps:
+* **Data Collection:** The first step is to collect the data from the IMDb dataset. The dataset contains reviews of various movies with their ratings ranging from 1 to 10. We will extract only the reviews and the corresponding sentiment (positive/negative) labels.
+* **Data Pre-processing:** In this step, we will perform some pre-processing tasks such as removing stop words, stemming, and converting all text to lowercase. We will also tokenize the reviews into words, and then convert the tokens into numerical features using techniques such as bag-of-words or TF-IDF.
+* **Feature Extraction:** Next, we will extract features from the pre-processed data. We will use various techniques such as word embeddings, n-grams, and topic modeling to extract meaningful features from the textual data.
+* **Model Selection and Training:** In this step, we will select an appropriate machine learning algorithm for the sentiment analysis task. We will train the model using the pre-processed and feature-extracted data. We will also evaluate the performance of the model using various metrics such as accuracy, precision, recall, and F1-score.
